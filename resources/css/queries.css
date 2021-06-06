@@ -1,0 +1,65 @@
+@media screen and (max-width:1200px) {
+    .row{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .close-icon ion-icon {
+        right: 40px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .grid-about-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .pual{
+        width: 50%;
+    }
+    .description{
+        margin-left: 45px;
+    }
+    .grid-process-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-portfolio-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-portfolio-items:nth-child(5) {
+        grid-column: 1/2;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .pual{
+        width: 70%;
+    }
+    .grid-experience-container{
+        grid-template-columns: 1fr;
+    }
+    .grid-contact-container{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:480px) {
+    html,
+    body{
+        font-size: 8px;
+    }
+    .description{
+        margin-left: 22px;
+    }
+    .pual{
+        width: 100%;
+    }
+    .grid-process-container,
+    .grid-portfolio-container {
+        grid-template-columns: 1fr;
+    }
+    .grid-portfolio-items img{
+        height: auto;
+    }
+    .grid-portfolio-container{
+        grid-auto-rows:auto;
+    }
+}
